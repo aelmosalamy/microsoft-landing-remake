@@ -9,27 +9,38 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
+  <div id="header-container" class="container">
+    <header class="header">
       <div id="logo-container">
         <img src="img/microsoft-logo.png" alt="">
       </div>
       <nav id="nav">
-        <a href="">
+        <a class="nav-links" href="#">
           <p>Office</p>
         </a>
-        <a href="">
+        <a class="nav-links" href="#">
           <p>Windows</p>
         </a>
-        <a href="">
+        <a class="nav-links" href="#">
           <p>Support</p>
         </a>
       </nav>
-      <a href="">
-        <p>All Microsoft <span class="fas fa-chevron-down"></span></p>
-      </a>
-    </div>
-  </header>
-  <img src="img/banner1" alt="">    
+      <div id="icon-nav-links">
+        <a class="nav-links" href="#">
+          <p>All Microsoft <i class="fa fa-chevron-down"></i></p>
+        </a>
+        <a class="nav-links" href="#">
+          <p>Search <i class="fa fa-search"></i></p>
+        </a>
+        <a class="nav-links" href="#">
+          <p>Sign in <i class="fa fa-sign-in-alt"></i></p>
+        </a>
+      </div>
+    </header>
+  </div>
+
+  <div class="container">
+    <img class="img-max" src="img/banner1.jpg" alt="">
+  </div>
 </body>
 </html>

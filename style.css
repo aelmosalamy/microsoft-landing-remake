@@ -1,8 +1,10 @@
 /* Microsoft Colors */
 /* Links (Deep Blue): #005da6 */
 :root {
-  --side-padding: 3em;
+  --side-padding: 75px;
 }
+
+/* Reset */
 
 * {
   padding: 0;
@@ -11,24 +13,73 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Utility */
+
+a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 13px;
+}
+
 .container {
   padding: 0 var(--side-padding);
 }
 
-/* Navigation */
-header.header {
-  height: 50px;
+.img-max {
+  width: 100%;
 }
 
-header.container {
+/* Header and Navigation */
+div#header-container.container {
+  height: 54px;
+}
 
+header.header {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
 div#logo-container {
-  
+  margin-right: 1.35em;
+  display: flex;
+  align-items: center;
 }
 
 div#logo-container > img {
+  width: 110px
+}
+
+nav#nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+a.nav-links {
+  padding: 8px 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+div#icon-nav-links {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#icon-nav-links > a.nav-links {
+  margin: 0 1.35em;
+}
+
+i {
+  margin-left: 5px;
 }
 
 
