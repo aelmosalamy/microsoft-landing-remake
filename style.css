@@ -1,0 +1,21 @@
+/* Microsoft Colors */
+/* Links (Deep Blue): #005da6 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation */
+header.header {
+  height: 50px;
+}
+
+nav > img#logo {
+  
+}
+
+
+
+
