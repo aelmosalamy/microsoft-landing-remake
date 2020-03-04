@@ -82,6 +82,37 @@ i {
   margin-left: 5px;
 }
 
+#banner-img {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
 
+#image-title {
+  position: absolute;
+  top: 220px;
+  left: 150px;
+}
 
+h2 {
+  font-weight: 600;
+}
 
+#image-title > p {
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+#shop-btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+#shop-btn:hover {
+  
+}
