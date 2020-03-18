@@ -136,7 +136,6 @@ h2 {
 }
 
 /* Cards */
-
 div.image-cards {
   display: grid;
   flex-direction: row;
@@ -144,13 +143,21 @@ div.image-cards {
   column-gap: 1.5em;
 }
 
+#cards-container {
+  margin: 2.5em 0;
+}
+
 .card-img {
   width: 100%;
   margin-bottom: 1.7em;
 }
 
+h2.cards-h2 {
+  margin-bottom: 1em;
+}
+
 .card-img:hover {
-  opacity: 95%;
+  opacity: 90%;
 }
 
 .card-header {
@@ -178,12 +185,12 @@ div.image-cards {
 
  /* Icons */
 #icons {
-  padding-left: 350px;
-  padding-top: 70px;
+  justify-content: center;
   position: relative;
   text-align: center;
   list-style: none;
   display: flex;
+  margin: 4.5em 0;
 }
 
 #icons > li {
