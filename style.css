@@ -223,11 +223,13 @@ h2.cards-h2 {
 
 /* 2nd Banner */
 #banner2 {
+  position: relative;
   margin-top: 60px;
 }
 
 #banner2 > .image-title {
-  padding-top: 700px;
+  position: absolute;
+  top: 150px;
 }
 
 #banner2 > .image-title > .shop-btn {
