@@ -136,7 +136,7 @@ h2 {
 
 /* Cards */
 
-div#image-cards {
+div.image-cards {
   display: grid;
   flex-direction: row;
   grid-template-columns: repeat(4, 1fr);
