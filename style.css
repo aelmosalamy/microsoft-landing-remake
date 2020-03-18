@@ -81,14 +81,14 @@ div#icon-nav-links > a.nav-links {
 i {
   margin-left: 5px;
 }
-
-#banner-img {
+/* 1st Banner */
+.banner-img {
   position: relative;
   margin: auto;
   width: 100%;
 }
 
-#image-title {
+.image-title {
   position: absolute;
   top: 220px;
   left: 150px;
@@ -98,12 +98,12 @@ h2 {
   font-weight: 600;
 }
 
-#image-title > p {
+.image-title > p {
   margin-top: 13px;
   font-size: 15px;
 }
 
-#shop-btn {
+.shop-btn {
   font-size: 15px;
   font-weight: 600;
   color: white;
@@ -111,19 +111,57 @@ h2 {
   width: 140px;
   height: 40px;
   margin-top: 20px;
+  border: none;
 }
 
-#shop-btn:hover {
+.shop-btn:hover {
   
-<<<<<<< HEAD
 }
-#shop-btn:hover {  
+.shop-btn:hover {  
 
 }
-
-
-
-
-=======
+ /* Icons */
+#icons {
+  padding-left: 350px;
+  padding-top: 70px;
+  position: relative;
+  text-align: center;
+  list-style: none;
+  display: flex;
 }
->>>>>>> dc48fc6a383aefc5ddbddd19152f959fe297b132
+#icons > li {
+  margin-right: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+.icons-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: bolder;
+  max-width: 125px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: normal;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.icons-link {
+  position: relative;
+  display: inline-block;
+  padding: 12px 6px;
+}
+.icons-link:hover {
+  text-decoration: underline;
+}
+
+/* 2nd Banner */
+#banner2 {
+  margin-top: 60px;
+}
+#banner2 > .image-title {
+  padding-top: 700px;
+}
+#banner2 > .image-title > .shop-btn {
+  width: 190px;
+}
+
