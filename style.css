@@ -140,12 +140,14 @@ h2 {
   height: 40px;
   border: 2px solid black;
 }
+
 .shop-btn::before {
   content: "SHOP NOW";
   right: 0px;
   position: relative;
   font-weight: 600;
 }
+
 .shop-btn::after {
   font-style: normal;
   left: 0px;
@@ -160,19 +162,23 @@ h2 {
   font-weight: 900;
   content: "\f054";
 }
+
 .shop-btn:hover {
   opacity: 90%;
   cursor: pointer;
 }
+
 .shop-btn:hover::after {
   left: 5px;
   transition: left 200ms ease-in-out;
 }
+
 .shop-btn:hover::before {
   right: 5px;
   transition: right 200ms ease-in-out;
   border-bottom: 2px solid white;
 }
+
 /* Cards */
 div.image-cards {
   display: grid;
@@ -211,7 +217,8 @@ h2.cards-h2 {
 }
 
 .card-link::after {
-  content: ' >';
+  font-family: 'Font Awesome 5 Free';
+  content: ' \f054';
   position: relative;
   left: 0;
 }
