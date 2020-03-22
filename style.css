@@ -1,7 +1,7 @@
 /* Microsoft Colors */
 /* Links (Deep Blue): #005da6 */
 :root {
-  --side-padding: 75px;
+  --side-padding: 5%;
 }
 
 /* Reset */
@@ -23,6 +23,8 @@ a {
 
 .container {
   padding: 0 var(--side-padding);
+  margin: 0 auto;
+  max-width: calc(1600px + 10%)
 }
 
 .img-max {
@@ -118,6 +120,10 @@ i {
   top: 50%;
   transform: translateY(-50%);
   left: 10%;
+}
+
+.image-title > h2 {
+  font-size: 46px;
 }
 
 h2 {
@@ -226,7 +232,7 @@ a.card-link > span {
 
 a.card-link > span:hover {
   border-bottom: 2px solid rgba(0, 103, 184, 255);
-  transition: 200ms ease;
+  transition: 200ms ease-in-out;
 }
 
 .card-link::after {
@@ -234,11 +240,12 @@ a.card-link > span:hover {
   content: ' \f054';
   position: relative;
   left: 0;
+  transition: left 200ms ease-in-out;
 }
 
 .card-link:hover::after {
-  left: 3px;
-  transition: left 100ms linear;
+  left: 5px;
+  transition: left 200ms ease-in-out;
 }
 
 #card-link-1-person {
