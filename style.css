@@ -1,7 +1,7 @@
 /* Microsoft Colors */
 /* Links (Deep Blue): #005da6 */
 :root {
-  --side-padding: 5%;
+  --side-margin: 5%;
 }
 
 /* Reset */
@@ -22,8 +22,7 @@ a {
 }
 
 .container {
-  padding: 0 var(--side-padding);
-  margin: 0 auto;
+  margin: 0 var(--side-margin);
   max-width: calc(1600px + 10%)
 }
 
@@ -119,7 +118,7 @@ i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 10%;
+  left: 5%;
 }
 
 .image-title > h2 {
