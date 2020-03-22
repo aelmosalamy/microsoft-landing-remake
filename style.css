@@ -126,9 +126,9 @@ h2 {
 }
 
 .image-title > p {
-  margin-top: 13px;
+  margin-top: 0.8125em;
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
 }
 
 .shop-btn {
@@ -207,7 +207,7 @@ h2.cards-h2 {
 }
 
 .card-header {
-  margin-bottom: 5px;
+  margin-bottom: 0.25em;
 }
 
 .card-link {
@@ -271,7 +271,7 @@ h2.cards-h2 {
 /* 2nd Banner */
 #banner2 {
   position: relative;
-  margin-top: 60px;
+  margin-top: 3.75em;
 }
 
 #banner2 > .image-title > .shop-btn {
