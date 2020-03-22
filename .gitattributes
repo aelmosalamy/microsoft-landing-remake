@@ -1,4 +1,4 @@
-*.txt text eol=crlf
-*.html text eol=crlf
-*.css text eol=crlf
-*.gitattributes text eol=crlf
+*.txt eol=crlf
+*.html eol=crlf
+*.css eol=crlf
+*.gitattributes eol=crlf
