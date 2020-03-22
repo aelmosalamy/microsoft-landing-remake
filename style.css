@@ -115,12 +115,14 @@ i {
 
 .image-title {
   position: absolute;
-  top: 150px;
-  left: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
 }
 
 h2 {
   font-weight: 600;
+  size: 46px;
 }
 
 .image-title > p {
