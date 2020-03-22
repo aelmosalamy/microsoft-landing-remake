@@ -209,11 +209,20 @@ h2.cards-h2 {
 }
 
 .card-link {
-  display: block;
+  display: inline-block;
   font-size: 15px;
   font-weight: 600;
-  color: #005da6;
-  margin: 1em 0;
+  color: rgb(0, 103, 184);
+  margin: 2em 0;
+}
+
+a.card-link > span {
+  border-bottom: 2px solid rgba(0, 103, 184, 0);
+}
+
+a.card-link > span:hover {
+  border-bottom: 2px solid rgba(0, 103, 184, 255);
+  transition: 200ms ease;
 }
 
 .card-link::after {
@@ -226,6 +235,10 @@ h2.cards-h2 {
 .card-link:hover::after {
   left: 3px;
   transition: left 100ms linear;
+}
+
+#card-link-1-person {
+  float: right;
 }
 
  /* Icons */
