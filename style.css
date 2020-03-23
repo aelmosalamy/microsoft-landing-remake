@@ -302,3 +302,42 @@ a.card-link > span:hover {
 #banner2 > .image-title > .shop-btn::before{
   content: "DOWNLOAD NOW";
 }
+
+/* Social Media Icons */
+
+.social-group {
+  margin: 2em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+p.social-label {
+  color: rgba(0, 0, 0, .6);
+  font-size: 15px;
+}
+
+.social-icons {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  margin: 5px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+}
+/* 
+.social-icon::before {
+  content: '';
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
